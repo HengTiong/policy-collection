@@ -16,7 +16,7 @@ spec:
         metadata:
           name: policy-kyverno-add-default-security-context
         spec:
-          remediationAction: inform
+          remediationAction: enforce
           severity: low
           object-templates:
             - complianceType: musthave
